@@ -27,4 +27,4 @@ Project for full stack devloper
     #to create the html file use the following :
     #note that the sss function expect a list
     movies_to_show = [movie1 ,movie2]
-    fresh_html.sss(list)
+    fresh_html.sss(movies_to_show)
