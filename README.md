@@ -18,12 +18,13 @@ Project for full stack devloper
     #now adding a movie to the project
     # making movie instance
     #add as long as you want!
-    starWars1 = media.Movie("Star Wars", "a star wars story",
+    movie1 = media.Movie("Star Wars", "a star wars story",
                         "http://t3.gstatic.com/images",
                         "https://www.youtube.com/watch?v=1g3_CFmnU7k")
-    starWars2 = media.Movie("Star Wars", "a star wars story",
+    movie2 = media.Movie("Star Wars", "a star wars story",
                         "http://t3.gstatic.com/images",
                         "https://www.youtube.com/watch?v=1g3_CFmnU7k")
     #to create the html file use the following :
     #note that the sss function expect a list
+    movies_to_show = [movie1 ,movie2]
     fresh_html.sss(list)
