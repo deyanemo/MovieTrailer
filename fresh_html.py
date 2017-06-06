@@ -51,6 +51,7 @@ item_content = """
 
 # The Function
 def sss(movies_list):
+    index = "index.html"
     movies_list = movies_list
     # open a file
     f = open("index.html","w+")
@@ -64,6 +65,7 @@ def sss(movies_list):
         f.write("</div>")
         f.write("\n")
     f.write(footer_content)
+    webbrowser.open(index)
     f.close()
 
 
